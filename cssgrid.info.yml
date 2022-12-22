@@ -1,0 +1,7 @@
+name: CSSgrid
+type: module
+description: 'Provides a views display style, CSS-Grid'
+package: Views
+core_version_requirement: ^8.8 || ^9 || ^10
+dependencies:
+  - views
