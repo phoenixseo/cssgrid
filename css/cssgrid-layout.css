@@ -1,0 +1,18 @@
+/* views-view-cssgrid (custom module) default werte */
+.views-view-cssgrid {
+  --cssgrid-layout-gap: 1rem;
+  --cssgrid-column-count: 12;
+  --cssgrid-item--min-width: 200px;
+}
+.views-view-cssgrid--columns {
+  --cssgrid-column-count: var(--cssgrid-column-count);
+}
+.views-view-cssgrid--horizontal {
+  --cssgrid-gap-count: calc(var(--cssgrid-column-count) - 1);
+  --cssgrid-total-gap-width: calc(var(--cssgrid-gap-count) * var(--cssgrid-layout-gap));
+  --cssgrid-item--max-width: calc((100% - var(--cssgrid-total-gap-width)) / var(--cssgrid-column-count));
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(var(--cssgrid-item--min-width), var(--cssgrid-item--max-width)), 1fr));
+  gap: var(--cssgrid-layout-gap);
+}
