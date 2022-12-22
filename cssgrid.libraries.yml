@@ -1,0 +1,5 @@
+cssgrid:
+  version: 1.x
+  css:
+    layout:
+      css/cssgrid-layout.css: {}
