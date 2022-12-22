@@ -19,3 +19,10 @@ Shows Input Fields for
   
   This module is exactly what you need if you want to display something in a CSS Grid that fits perfectly in its "space" (max. Container width) and breaks nicely to the next responve Breakpoints.
   
+---
+Inspiration and Code-Lookup:
+- https://cms.devguide.at/drupal-8-9/custom-views-display-style-plugin/
+- https://www.drupal.org/docs/creating-custom-modules/building-a-views-display-style-plugin-for-drupal
+- https://www.osseed.com/blog/drupal-8-creating-views-display-plugin
+- https://gist.github.com/lonalore/891b831e6724ae80df9b9d26b05f8a79
+
